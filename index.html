@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Alexey Kharitonov, resume, cv" />
+    <meta name="description" content="это сайт Алексея на HTML и CSS" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Alexey resume 2025</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info-text">
+        <img src="./photos/avatar_me.jpg" alt="avatar" class="avatar" />
+        <div>
+          <h1>Алексей Харитонов</h1>
+
+          <p>
+            Я являюсь действующим Middle Frontend разработчиком в
+            <strong>банке</strong>
+          </p>
+
+          <p>
+            Я люблю <em>баскетбол</em> и <em>тренажерный зал</em>, а также все,
+            что связано с <em>IT-сферой</em>
+          </p>
+
+          <div class="social">
+            <h3>Список моих социальных сетей</h3>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            |
+            <a href="https://t.me/" target="_blank">Telegram</a>
+            |
+            <a href="https://vk.com/" target="_blank">VK</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card hobbies">
+        <h2>Мои хобби</h2>
+        <ul class="list">
+          <li>Баскетбол</li>
+          <li>Frontend</li>
+          <li>Тренажерный зал</li>
+          <li>Рациональное питание</li>
+        </ul>
+      </div>
+      <div class="card experience">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>Макдоналдс</td>
+              <td>Член бригады ресторана</td>
+              <td>2016-2018</td>
+            </tr>
+            <tr>
+              <td>АО Микрон</td>
+              <td>Инженер-технолог</td>
+              <td>2018-2024</td>
+            </tr>
+            <tr>
+              <td>Фриланс</td>
+              <td>Frontend-разработчик</td>
+              <td>2023-2023</td>
+            </tr>
+            <tr>
+              <td>Банк</td>
+              <td>Middle Frontend-разработчик</td>
+              <td>2024-наст. вр.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card contact">
+        <h2>Связаться со мной</h2>
+        <form class="form">
+          <div>
+            <label for="name">Ваше имя</label>
+            <input placeholder="Введите имя" type="text" id="name" />
+          </div>
+          <div>
+            <label for="email">Ваш email</label>
+            <input placeholder="Введите email" type="email" id="email" />
+          </div>
+          <div>
+            <label for="message">Ваше сообщение</label>
+            <textarea
+              id="message"
+              cols="30"
+              rows="10"
+              name="message"
+              placeholder="Напишите текст..."
+            ></textarea>
+          </div>
+          <button class="btn" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
